@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chetan Singh - Cybersecurity Enthusiast & Web Developer</title>
+    <meta
+      name="description"
+      content="Chetan Singh - Cybersecurity enthusiast and collaborative developer seeking internship opportunities"
+    />
+    <meta
+      name="keywords"
+      content="cybersecurity, web development, python, kali linux, ethical hacking, internship"
+    />
+
+    <!-- CDN Links -->
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Fira+Code:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+      <div class="loader-content">
+        <div class="loader-text">INITIALIZING SYSTEM...</div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Matrix Background -->
+    <div class="matrix" id="matrix"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo glitch">CHETAN.SINGH</a>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div id="particles-js"></div>
+      <div class="hero-content">
+        <h1 class="hero-title glitch">CHETAN SINGH</h1>
+        <p class="hero-subtitle">
+          <span id="typed-text"></span>
+        </p>
+        <p class="hero-description">
+          Self-motivated cybersecurity enthusiast and collaborative developer
+          with strong foundation in web technologies, ethical hacking, and game
+          development. Currently pursuing Bachelor's in Computing and seeking
+          internship opportunities.
+        </p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn pulse">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="2.jpg" alt="Chetan Singh" class="profile-img" />
+        </div>
+        <div class="about-text-content">
+          <p class="about-text">
+            I'm Chetan Singh, a passionate cybersecurity enthusiast and
+            collaborative developer currently pursuing my Bachelor's in
+            Computing at Herald College Kathmandu (University of Wolverhampton).
+            Originally from Mahendranagar, Kanchanpur, I'm now based in
+            Kathmandu.
+          </p>
+          <p class="about-text">
+            My journey in technology spans across cybersecurity, web
+            development, and game development. I have hands-on experience with
+            tools like Kali Linux, Nmap, and VirtualBox, combined with
+            programming skills in Python, PHP, C# (Unity), and web technologies.
+          </p>
+          <p class="about-text">
+            I'm actively seeking internship opportunities where I can apply my
+            technical knowledge, contribute to meaningful projects, and grow in
+            a practical, team-oriented environment. My goal is to bridge the gap
+            between security and development while continuously learning.
+          </p>
+
+          <div class="education-info">
+            <h3 style="color: var(--accent-green); margin: 2rem 0 1rem 0">
+              Education
+            </h3>
+            <div class="education-item">
+              <strong>Bachelor's in Computing</strong><br />
+              Herald College Kathmandu – University of Wolverhampton<br />
+              <em>Currently Pursuing (2nd Year) • Naxal, Kathmandu</em>
+            </div>
+            <div class="education-item" style="margin-top: 1rem">
+              <strong>+2 Science (Computer Stream)</strong><br />
+              Radiant Secondary School, Mahendranagar<br />
+              <em>Graduated: 2023</em>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat-item">
+          <span class="stat-number" data-count="6">0</span>
+          <div class="stat-label">Completed Projects</div>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="8">0</span>
+          <div class="stat-label">Programming Languages</div>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="15">0</span>
+          <div class="stat-label">Security Tools</div>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="2">0</span>
+          <div class="stat-label">Years of Learning</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <h2 class="section-title">Skills & Expertise</h2>
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3 class="category-title">
+            <i class="fas fa-code"></i>
+            Programming & Scripting
+          </h3>
+          <div class="skill-item">
+            <span class="skill-name">Python</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">PHP</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="70"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">C# (Unity)</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="75"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">HTML/CSS</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">SQL</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="75"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Bash Scripting</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="70"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">
+            <i class="fas fa-shield-alt"></i>
+            Cybersecurity & Tools
+          </h3>
+          <div class="skill-item">
+            <span class="skill-name">Kali Linux</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Nmap</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Wireshark</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="65"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">VirtualBox</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">SSH Tunneling</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="70"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Network Security</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="75"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">
+            <i class="fas fa-globe"></i>
+            Web Development & Design
+          </h3>
+          <div class="skill-item">
+            <span class="skill-name">Responsive Design</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">API Integration</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Figma (UI Design)</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="75"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Git & GitHub</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Static Websites</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">
+            <i class="fas fa-users"></i>
+            Soft Skills
+          </h3>
+          <div class="skill-item">
+            <span class="skill-name">Team Collaboration</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Problem Solving</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Adaptability</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Documentation</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Version Control</span>
+            <div class="skill-level">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Terminal -->
+      <div class="terminal">
+        <div class="terminal-header">
+          <div class="terminal-dot dot-red"></div>
+          <div class="terminal-dot dot-yellow"></div>
+          <div class="terminal-dot dot-green"></div>
+          <span style="margin-left: 1rem; color: #b0b0b0">chetan@kali:~$</span>
+        </div>
+        <div class="terminal-content" id="terminalContent">
+          <div class="terminal-line">
+            <span class="terminal-prompt">chetan@kali:~$</span> whoami
+          </div>
+          <div class="terminal-line">
+            Cybersecurity Enthusiast & Collaborative Developer
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-prompt">chetan@kali:~$</span> ls -la projects/
+          </div>
+          <div class="terminal-line">
+            drwxr-xr-x weather-app/ python-games/ unity-games/ security-tools/
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-prompt">chetan@kali:~$</span> cat
+            career-objective.txt
+          </div>
+          <div class="terminal-line">
+            "Seeking internship to apply knowledge and grow in team environment"
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-prompt">chetan@kali:~$</span>
+            <input
+              type="text"
+              class="terminal-input"
+              id="terminalInput"
+              placeholder="Try: help, nmap, python, projects"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Cybersecurity Portfolio Website</h3>
+            <p class="project-description">
+              Hacker-themed animated one-page portfolio using HTML, CSS, and
+              JavaScript. Features terminal emulator, matrix animations, and
+              highlights cybersecurity tools and project roadmap.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Animations</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/chetan2061" class="project-link">
+                <i class="fab fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-cloud-sun"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Weather App - PHP API</h3>
+            <p class="project-description">
+              Dynamic weather application built with PHP consuming
+              OpenWeatherMap API. Displays real-time weather data with clean
+              interface and error handling. Beginner-level project focusing on
+              API integration.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">OpenWeatherMap API</span>
+              <span class="tech-tag">HTML/CSS</span>
+              <span class="tech-tag">JSON</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/chetan2061" class="project-link">
+                <i class="fab fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Python Tic Tac Toe Game</h3>
+            <p class="project-description">
+              Console-based Tic Tac Toe game for two players built in Python.
+              Implements game loop logic, board management, win-checking
+              algorithms, and user input validation.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">CLI</span>
+              <span class="tech-tag">Game Logic</span>
+              <span class="tech-tag">Algorithms</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/chetan2061" class="project-link">
+                <i class="fab fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Scissor Cipher Encryption Tool</h3>
+            <p class="project-description">
+              Python-based encryption tool implementing substitution cipher
+              technique. Features file handling capabilities, string
+              manipulation, and basic cryptographic operations for educational
+              purposes.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Cryptography</span>
+              <span class="tech-tag">File Handling</span>
+              <span class="tech-tag">Security</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/chetan2061" class="project-link">
+                <i class="fab fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-running"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Ninja Parkour - Unity Game</h3>
+            <p class="project-description">
+              Side-scrolling parkour platformer game developed in Unity using
+              C#. Features jump mechanics, obstacle systems, environment
+              interactions, and character movement physics.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Unity</span>
+              <span class="tech-tag">C#</span>
+              <span class="tech-tag">Game Development</span>
+              <span class="tech-tag">Physics</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/chetan2061" class="project-link">
+                <i class="fab fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-calculator"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Simple Calculator - Team Project</h3>
+            <p class="project-description">
+              Collaborative calculator project built with team members using
+              GitHub. Practiced real-world Git operations including branches,
+              merges, pull requests, and team coordination workflows.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">HTML/CSS</span>
+              <span class="tech-tag">Git</span>
+              <span class="tech-tag">Team Collaboration</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/chetan2061" class="project-link">
+                <i class="fab fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label class="form-label" for="name">Name</label>
+              <input type="text" id="name" class="form-input" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input type="email" id="email" class="form-input" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="subject">Subject</label>
+              <input type="text" id="subject" class="form-input" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea
+                id="message"
+                class="form-input form-textarea"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn pulse">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope contact-icon"></i>
+            <div>
+              <h4>Email</h4>
+              <p>chetansingh206111@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone contact-icon"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+977-9706511171</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt contact-icon"></i>
+            <div>
+              <h4>Location</h4>
+              <p>
+                Kathmandu, Nepal<br /><small
+                  >Originally from Mahendranagar, Kanchanpur</small
+                >
+              </p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-graduation-cap contact-icon"></i>
+            <div>
+              <h4>Status</h4>
+              <p>Seeking Internship Opportunities</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-links">
+        <a
+          href="https://github.com/chetan2061"
+          class="social-link"
+          title="GitHub"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://linkedin.com/in/chetan-singh-970084353"
+          class="social-link"
+          title="LinkedIn"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="mailto:chetansingh206111@gmail.com"
+          class="social-link"
+          title="Email"
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="tel:+9779706511171" class="social-link" title="Phone">
+          <i class="fas fa-phone"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        &copy; 2025 Chetan Singh. All rights reserved. | Available for
+        Internship Opportunities
+      </p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
