@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
 
-[View Live Site](https://chetanshingh.com.np)
+[Live Site](https://chetan2061.github.io/portfolio/)
 
 ## ✨ Features
 
