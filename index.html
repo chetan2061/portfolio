@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Basic HTML5 document setup with proper meta tags for SEO and responsive design -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chetan Singh - Cybersecurity Enthusiast & Web Developer</title>
@@ -13,23 +14,31 @@
       content="cybersecurity, web development, python, kali linux, ethical hacking, internship"
     />
 
-    <!-- CDN Links -->
+    <!-- CDN Links for external resources -->
     <link href="style.css" rel="stylesheet" />
+    <!-- Google Fonts for modern typography - Orbitron for headings, Fira Code for terminal/code -->
     <link
       href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Fira+Code:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome for icons throughout the website -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Typed.js for animated typing effect in hero section -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"></script>
+    <!-- Particles.js for animated background particles -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
 
     <!-- External CSS -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Custom Cursor -->
+    <!-- Custom animated cursor that follows mouse movement -->
     <div class="cursor"></div>
 
-    <!-- Loading Screen -->
+    <!-- Loading Screen with progress bar animation -->
     <div class="loader" id="loader">
       <div class="loader-content">
         <div class="loader-text">INITIALIZING SYSTEM...</div>
@@ -39,13 +48,15 @@
       </div>
     </div>
 
-    <!-- Matrix Background -->
+    <!-- Animated matrix background effect with falling characters -->
     <div class="matrix" id="matrix"></div>
 
-    <!-- Navigation -->
+    <!-- Fixed navigation bar with smooth scrolling and mobile responsive hamburger menu -->
     <nav class="navbar" id="navbar">
       <div class="nav-container">
+        <!-- Logo with glitch animation effect on hover -->
         <a href="#home" class="logo glitch">CHETAN.SINGH</a>
+        <!-- Navigation menu items -->
         <ul class="nav-menu" id="navMenu">
           <li><a href="#home" class="nav-link active">Home</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
@@ -53,6 +64,7 @@
           <li><a href="#projects" class="nav-link">Projects</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
+        <!-- Mobile hamburger menu button -->
         <div class="hamburger" id="hamburger">
           <span></span>
           <span></span>
@@ -61,20 +73,25 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section with particles background and animated typing text -->
     <section class="hero" id="home">
+      <!-- Particles.js container for animated background -->
       <div id="particles-js"></div>
       <div class="hero-content">
+        <!-- Main title with gradient text effect -->
         <h1 class="hero-title glitch">CHETAN SINGH</h1>
+        <!-- Animated subtitle using Typed.js -->
         <p class="hero-subtitle">
           <span id="typed-text"></span>
         </p>
+        <!-- Professional description -->
         <p class="hero-description">
           Self-motivated cybersecurity enthusiast and collaborative developer
           with strong foundation in web technologies, ethical hacking, and game
           development. Currently pursuing Bachelor's in Computing and seeking
           internship opportunities.
         </p>
+        <!-- Call-to-action buttons with hover effects -->
         <div class="cta-buttons">
           <a href="#projects" class="btn pulse">View Projects</a>
           <a href="#contact" class="btn btn-secondary">Get In Touch</a>
@@ -82,13 +99,15 @@
       </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About Section with personal information, education, and statistics -->
     <section class="section" id="about">
       <h2 class="section-title">About Me</h2>
       <div class="about-content">
+        <!-- Profile image with hover effects -->
         <div class="about-image">
           <img src="2.jpg" alt="Chetan Singh" class="profile-img" />
         </div>
+        <!-- Text content with education details -->
         <div class="about-text-content">
           <p class="about-text">
             I'm Chetan Singh, a passionate cybersecurity enthusiast and
@@ -110,6 +129,7 @@
             between security and development while continuously learning.
           </p>
 
+          <!-- Education information section -->
           <div class="education-info">
             <h3 style="color: var(--accent-green); margin: 2rem 0 1rem 0">
               Education
@@ -128,6 +148,7 @@
         </div>
       </div>
 
+      <!-- Animated statistics counters -->
       <div class="stats">
         <div class="stat-item">
           <span class="stat-number" data-count="6">0</span>
@@ -148,15 +169,17 @@
       </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Skills Section with categorized skill bars and interactive terminal -->
     <section class="section" id="skills">
       <h2 class="section-title">Skills & Expertise</h2>
       <div class="skills-container">
+        <!-- Programming & Scripting Skills Category -->
         <div class="skill-category">
           <h3 class="category-title">
             <i class="fas fa-code"></i>
             Programming & Scripting
           </h3>
+          <!-- Individual skill items with animated progress bars -->
           <div class="skill-item">
             <span class="skill-name">Python</span>
             <div class="skill-level">
@@ -201,6 +224,7 @@
           </div>
         </div>
 
+        <!-- Cybersecurity & Tools Skills Category -->
         <div class="skill-category">
           <h3 class="category-title">
             <i class="fas fa-shield-alt"></i>
@@ -244,6 +268,7 @@
           </div>
         </div>
 
+        <!-- Web Development & Design Skills Category -->
         <div class="skill-category">
           <h3 class="category-title">
             <i class="fas fa-globe"></i>
@@ -281,6 +306,7 @@
           </div>
         </div>
 
+        <!-- Soft Skills Category -->
         <div class="skill-category">
           <h3 class="category-title">
             <i class="fas fa-users"></i>
@@ -319,14 +345,16 @@
         </div>
       </div>
 
-      <!-- Interactive Terminal -->
+      <!-- Interactive Terminal Emulator -->
       <div class="terminal">
+        <!-- Terminal header with Mac-style dots -->
         <div class="terminal-header">
           <div class="terminal-dot dot-red"></div>
           <div class="terminal-dot dot-yellow"></div>
           <div class="terminal-dot dot-green"></div>
           <span style="margin-left: 1rem; color: #b0b0b0">chetan@kali:~$</span>
         </div>
+        <!-- Terminal content with interactive command input -->
         <div class="terminal-content" id="terminalContent">
           <div class="terminal-line">
             <span class="terminal-prompt">chetan@kali:~$</span> whoami
@@ -360,13 +388,22 @@
       </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Projects Section showcasing portfolio work with project images -->
     <section class="section" id="projects">
       <h2 class="section-title">Featured Projects</h2>
       <div class="projects-grid">
+        <!-- Project Card 1: Cybersecurity Portfolio Website -->
         <div class="project-card">
           <div class="project-image">
-            <i class="fas fa-shield-alt"></i>
+            <!-- Using placeholder image service for project screenshots -->
+            <img
+              src="https://via.placeholder.com/350x200/00FF41/0A0A0A?text=Portfolio+Website"
+              alt="Cybersecurity Portfolio Project"
+              class="project-img"
+            />
+            <div class="project-overlay">
+              <i class="fas fa-shield-alt"></i>
+            </div>
           </div>
           <div class="project-content">
             <h3 class="project-title">Cybersecurity Portfolio Website</h3>
@@ -375,12 +412,14 @@
               JavaScript. Features terminal emulator, matrix animations, and
               highlights cybersecurity tools and project roadmap.
             </p>
+            <!-- Technology tags for the project -->
             <div class="project-tech">
               <span class="tech-tag">HTML5</span>
               <span class="tech-tag">CSS3</span>
               <span class="tech-tag">JavaScript</span>
               <span class="tech-tag">Animations</span>
             </div>
+            <!-- Project links -->
             <div class="project-links">
               <a href="https://github.com/chetan2061" class="project-link">
                 <i class="fab fa-github"></i> Code
@@ -389,9 +428,17 @@
           </div>
         </div>
 
+        <!-- Project Card 2: Weather App -->
         <div class="project-card">
           <div class="project-image">
-            <i class="fas fa-cloud-sun"></i>
+            <img
+              src="https://via.placeholder.com/350x200/00D4FF/0A0A0A?text=Weather+App"
+              alt="Weather App Project"
+              class="project-img"
+            />
+            <div class="project-overlay">
+              <i class="fas fa-cloud-sun"></i>
+            </div>
           </div>
           <div class="project-content">
             <h3 class="project-title">Weather App - PHP API</h3>
@@ -415,9 +462,17 @@
           </div>
         </div>
 
+        <!-- Project Card 3: Python Tic Tac Toe Game -->
         <div class="project-card">
           <div class="project-image">
-            <i class="fas fa-gamepad"></i>
+            <img
+              src="https://via.placeholder.com/350x200/BF00FF/0A0A0A?text=Tic+Tac+Toe"
+              alt="Tic Tac Toe Game Project"
+              class="project-img"
+            />
+            <div class="project-overlay">
+              <i class="fas fa-gamepad"></i>
+            </div>
           </div>
           <div class="project-content">
             <h3 class="project-title">Python Tic Tac Toe Game</h3>
@@ -440,9 +495,17 @@
           </div>
         </div>
 
+        <!-- Project Card 4: Scissor Cipher Encryption Tool -->
         <div class="project-card">
           <div class="project-image">
-            <i class="fas fa-lock"></i>
+            <img
+              src="https://via.placeholder.com/350x200/FF0040/0A0A0A?text=Encryption+Tool"
+              alt="Scissor Cipher Project"
+              class="project-img"
+            />
+            <div class="project-overlay">
+              <i class="fas fa-lock"></i>
+            </div>
           </div>
           <div class="project-content">
             <h3 class="project-title">Scissor Cipher Encryption Tool</h3>
@@ -466,9 +529,17 @@
           </div>
         </div>
 
+        <!-- Project Card 5: Ninja Parkour Unity Game -->
         <div class="project-card">
           <div class="project-image">
-            <i class="fas fa-running"></i>
+            <img
+              src="https://via.placeholder.com/350x200/FFA500/0A0A0A?text=Ninja+Parkour"
+              alt="Ninja Parkour Game Project"
+              class="project-img"
+            />
+            <div class="project-overlay">
+              <i class="fas fa-running"></i>
+            </div>
           </div>
           <div class="project-content">
             <h3 class="project-title">Ninja Parkour - Unity Game</h3>
@@ -491,9 +562,17 @@
           </div>
         </div>
 
+        <!-- Project Card 6: Simple Calculator Team Project -->
         <div class="project-card">
           <div class="project-image">
-            <i class="fas fa-calculator"></i>
+            <img
+              src="https://via.placeholder.com/350x200/00FF80/0A0A0A?text=Calculator+App"
+              alt="Calculator Team Project"
+              class="project-img"
+            />
+            <div class="project-overlay">
+              <i class="fas fa-calculator"></i>
+            </div>
           </div>
           <div class="project-content">
             <h3 class="project-title">Simple Calculator - Team Project</h3>
@@ -518,10 +597,11 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section with form and social media links -->
     <section class="section" id="contact">
       <h2 class="section-title">Get In Touch</h2>
       <div class="contact-content">
+        <!-- Contact form with validation -->
         <div class="contact-form">
           <form id="contactForm">
             <div class="form-group">
@@ -548,6 +628,7 @@
           </form>
         </div>
 
+        <!-- Contact information cards -->
         <div class="contact-info">
           <div class="contact-item">
             <i class="fas fa-envelope contact-icon"></i>
@@ -584,6 +665,7 @@
         </div>
       </div>
 
+      <!-- Social media links with proper icons -->
       <div class="social-links">
         <a
           href="https://github.com/chetan2061"
@@ -614,7 +696,7 @@
       </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer with copyright information -->
     <footer class="footer">
       <p>
         &copy; 2025 Chetan Singh. All rights reserved. | Available for
@@ -622,12 +704,12 @@
       </p>
     </footer>
 
-    <!-- Back to Top Button -->
+    <!-- Back to top button for better UX -->
     <button class="back-to-top" id="backToTop">
       <i class="fas fa-arrow-up"></i>
     </button>
 
-    <!-- External JavaScript -->
+    <!-- External JavaScript file -->
     <script src="script.js"></script>
   </body>
 </html>
