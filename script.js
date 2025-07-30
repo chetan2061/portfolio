@@ -21,7 +21,7 @@ window.addEventListener("load", function () {
     }
   }, 100);
 });
-// day2
+
 // Custom Cursor
 const cursor = document.querySelector(".cursor");
 let mouseX = 0;
@@ -42,6 +42,7 @@ function animateCursor() {
   requestAnimationFrame(animateCursor);
 }
 animateCursor();
+
 // Matrix Background Effect
 function createMatrix() {
   const matrix = document.getElementById("matrix");
@@ -318,6 +319,7 @@ terminalInput.addEventListener("keypress", (e) => {
     terminalContent.scrollTop = terminalContent.scrollHeight;
   }
 });
+
 // Terminal command history navigation
 document.addEventListener("keydown", (e) => {
   const terminalInput = document.getElementById("terminalInput");
